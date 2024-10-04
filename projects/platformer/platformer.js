@@ -1,4 +1,4 @@
-$(function () {
+$(function 
   // initialize canvas and context when able to
   canvas = document.getElementById("canvas");
   ctx = canvas.getContext("2d");
@@ -38,8 +38,8 @@ $(function () {
     // Create platforms
     // You must decide the x position, y position, width, and height of the platforms
     // example usage: createPlatform(x,y,width,height)
-
-
+    createPlatform(500, 300, 200, 20)
+    createPlatform(400, 600, 200, 20)
 
     
     // TODO 2
